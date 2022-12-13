@@ -1,0 +1,52 @@
+{
+  "Alumno": [
+    {
+      "id": 1,
+      "nombre": "Juan",
+      "apellido": "Aguirre"
+    },
+    {
+      "id": 2,
+      "nombre": "Maria",
+      "apellido": "Eugenia"
+    },
+    {
+      "id": 3,
+      "nombre": "David",
+      "apellido": "Aceiton"
+    },
+    {
+      "id": 4,
+      "nombre": "Laura",
+      "apellido": "Quinteros"
+    }
+  ],
+  "Profesor": [
+    {
+      "id": 1,
+      "nombre": "Andres",
+      "apellido": "Rojas",
+      "asignatura":"Matematicas"
+    },
+    {
+      "id": 2,
+      "nombre": "Daniela",
+      "apellido": "Guzman",
+      "asignatura": "Lenguaje"
+    }
+  ],
+  "Asistencia": [
+    {
+      "id": 1,
+      "dia":""
+    }
+  ],
+  "Prueba": [
+    {
+      "id":1,
+      "nombre":"Karina",
+      "Grupo":"Alumno"
+    }
+  ]
+
+}

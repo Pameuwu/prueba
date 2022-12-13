@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title> Bienvenido</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-menu contentId="main-content">
+    <ion-header>
+      <ion-toolbar>
+        <ion-item>
+          <ion-avatar slot="start">
+            <img alt="Silhouette of a person's head" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+          </ion-avatar>
+        </ion-item>
+      <ion-button expand="block" color="light" [routerLink]="['/asistencia']" >Listado Alumnos</ion-button>
+      <ion-button expand="block" color="light" [routerLink]="['/qr']" >Asistencia</ion-button>
+      <ion-button expand="block" color="light" [routerLink]="['/login']">Cerrar sesion</ion-button>
+    </ion-toolbar>
+    
+  
+  </ion-header>
+</ion-menu>
+<br>
+<br>
+<br>
+<br>
+<ion-avatar>
+  <img alt="Silhouette of a person's head" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+</ion-avatar>
+
+
+  <div class="ion-page" id="main-content">
+    <ion-header>
+      <ion-toolbar>
+        <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title>Menu</ion-title>
+      </ion-toolbar>
+    </ion-header>
